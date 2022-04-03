@@ -22,7 +22,8 @@ lazy val root = (project in file("."))
     licenses += ("Apache-2.0", new URL("https://www.apache.org/licenses/LICENSE-2.0.txt")),
     libraryDependencies ++= Seq(
       catsCore,
-      scalaTest % Test
+      scalaTest % Test,
+      "org.apache.spark" %% "spark-sql" % "3.2.1"
     )
   )
   .settings(nixDockerSettings: _*)
