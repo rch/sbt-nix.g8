@@ -1,7 +1,7 @@
 import Dependencies._
 import com.typesafe.sbt.packager.docker._
 
-ThisBuild / scalaVersion     := "2.12.15"
+ThisBuild / scalaVersion     := "2.13.3"
 ThisBuild / version          := "0.1.0-SNAPSHOT"
 ThisBuild / organization     := "dev.profunktor"
 ThisBuild / organizationName := "ProfunKtor"
