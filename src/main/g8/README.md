@@ -40,4 +40,4 @@ Run the binary as follows.
 
 ### Notes
 
-Make sure you read the comprehensive guide at https://github.com/gvolpe/sbt-nix.g8, if you feel stuck.
+Make sure you read the comprehensive guide at https://github.com/rch/sbt-nix.g8, if you feel stuck.
